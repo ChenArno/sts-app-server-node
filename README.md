@@ -23,7 +23,11 @@ App Server可以实现更复杂的策略，为不同的客户端提供不同权�
 
 ### Start server
 
-    node index.js
+    npm run start
+
+### update server
+
+    npm run update
 
 ### Open in your browser
 
