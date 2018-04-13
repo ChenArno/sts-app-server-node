@@ -29,7 +29,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'https://github.com/ChenArno/sts-app-server-node.git',
       path : '/var/node/production',
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy' : 'cnpm install && pm2 startOrRestart ecosystem.config.js --env production'
     }
   }
 };

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 deploy ecosystem.json production setup",
+    "start": "pm2 deploy ecosystem.config.js production setup",
     "update": "pm2 deploy production update"
   },
   "keywords": [
