@@ -1,0 +1,28 @@
+{
+  "name": "node-sts-app-server",
+  "version": "1.0.0",
+  "description": "Node.js STS app server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 deploy ecosystem.json production setup",
+    "update": "pm2 deploy production update"
+  },
+  "keywords": [
+    "Node.js",
+    "STS",
+    "OSS"
+  ],
+  "author": "rockuw <rockuw@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "ali-oss": "^4.0.1",
+    "co": "^4.6.0",
+    "express": "^4.13.4",
+    "nodemon": "^1.17.3",
+    "proxy-agent": "^3.0.0"
+  }
+}
